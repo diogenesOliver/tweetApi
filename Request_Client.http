@@ -1,0 +1,12 @@
+@baseUrl = http://localhost:8080/v1
+
+POST {{baseUrl}}/tweet
+Content-Type: application/json
+
+{
+    "description": "This is my Tweet"
+}
+
+###
+
+DELETE {{baseUrl}}/tweet/030f757a-18ab-49d0-b2c4-4307ddd200b0
