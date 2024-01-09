@@ -1,5 +1,9 @@
 @baseUrl = http://localhost:8080/v1
 
+GET {{baseUrl}}/tweets
+
+###
+
 POST {{baseUrl}}/tweet
 Content-Type: application/json
 
@@ -9,4 +13,4 @@ Content-Type: application/json
 
 ###
 
-DELETE {{baseUrl}}/tweet/030f757a-18ab-49d0-b2c4-4307ddd200b0
+DELETE {{baseUrl}}/tweet/1488dcb1-e73a-4f80-910e-af97c63620ad
