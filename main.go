@@ -9,5 +9,8 @@ func main() {
 	app := gin.Default()
 
 	routes.AppRoutes(app)
-	app.Run(":8080")
+	err := app.Run(":8080")
+	if err != nil {
+		return
+	}
 }
